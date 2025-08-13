@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <img alt="Picture of a Computer" width="500" height="200"
+  src="https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg?_gl=1*1ce9zq4*_ga*MzAwODg1MjMwLjE3NTUwODk1NDI.*_ga_8JE65Q40S6*czE3NTUwOTY2MzMkbzIkZzEkdDE3NTUwOTczMTAkajU5JGwwJGgw">
+<article>
+  <h2>Lists</h2>
+  <ul>
+  <li>PC Types:
+    <ol>
+      <li>Desktops</li>
+      <li>Laptops</li>
+      <li>Tablets</li>
+    </ol>
+  </li>
+  <li>Available Operating Systems
+    <ul>
+      <li>Windows</li>
+      <li>Linux</li>
+      <li>MacOS</li>
+    </ul>
+  </li>
+</ul>
+</article>
+<h2>Table</h2>
+  <table border="1">
+    <caption>Price List</caption>
+  <thead>
+    <tr>
+      <th>Manufacturer</th>
+      <th>Price($)</th>
+      <th>Discount</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Lenovo</td>
+      <td>115</td>
+      <td>10%</td>
+    </tr>
+    <tr>
+      <td>HP</td>
+      <td>170</td>
+      <td>18%</td>
+    </tr>
+        <tr>
+      <td>Dell</td>
+      <td>115</td>
+      <td>N/A</td>
+    </tr>
+        <tr>
+      <td>MSI</td>
+      <td>120</td>
+      <td>5%</td>
+    </tr>    <tr>
+      <td>Asus</td>
+      <td>200</td>
+      <td>10%</td>
+    </tr>
+        </tr>    <tr>
+      <td>MacBook Pro</td>
+      <td>300</td>
+      <td>10%</td>
+    </tr>
+  </tbody>
+</table>
+<video width="500" height="500" controls autoplay>
+  <source src="https://videos.pexels.com/video-files/7989676/7989676-hd_1920_1080_25fps.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+    <h2>Purchase Request Form</h2>
+      <form action="#" autocomplete="on">
+        <fieldset>
+          <legend>User Details</legend>
+
+          
+      <label for="order-id">Order ID:</label>
+      <input type="text" id="order-id" value="PC12345" readonly><br><br>
+
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" placeholder="Fullname..." required>
+          <br> <br>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" placeholder="Email address..." required>
+          <br><br>
+          <label for="age">Age:</label>
+          <input type="number" name="age" id="age" max="30" min="18" placeholder="Current age..." required>
+          <br><br>
+          <label for="dob">Date of Birth:</label>
+          <input type="date" name="dob" id="dob" required>
+          <br><br>
+          <label for="gender">Gender:</label>
+          <input type="radio" name="gender" value="male"> Male
+          <input type="radio" name="gender" value="female"> Female
+          <br><br>
+          <label for="address">Delivery address:</label>
+          <input type="text" name="address" id="address" placeholder="Address..." required>
+          <br> <br>
+        </fieldset>
+        <fieldset>
+          <legend>Order Details</legend>
+          <br>
+          <label for="receipt">Upload Payment receipt:</label>
+          <input type="file" name="receipt" id="receipt" accept=".jpg,.png" required>
+          <br><br>
+          <label for="customization">Customize your order:</label>
+          <textarea name="customization" id="customization" placeholder="Tell us if you want something more..." cols="30" rows="5"></textarea>
+          <br><br>
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+</body>
+</html>
+
